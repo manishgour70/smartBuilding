@@ -12,7 +12,7 @@ app.use(express.json())
 
 var schema={Time_Stamp:1,Device_ID:1,Current:1, voltage:1,Power_Factor:1,room_temp:1,Compressor_temp:1,External_temp:1,Current_mode_of_AC:1,timing_clock_of_ac:1,AC_fan:1,Humidity:1,_updated:1,_etag:1}
 
-app.get('/', (req, res) => {
+app.get('', (req, res) => {
 
 User.find({}).then((user) => {
         
