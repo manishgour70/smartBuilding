@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const uri='mongodb+srv://manish:smartBuilding@1@smartbuilding-gys5z.mongodb.net/smartBuilding?retryWrites=true&w=majority'
+const uri=''your_db_uri'
 
 mongoose.connect(uri, {
 useNewUrlParser: true,
